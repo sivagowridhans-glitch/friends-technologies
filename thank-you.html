@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — Friends Technologies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B1120;
+    --paper:#F4F6FA;
+    --accent:#4ADE80;
+    --text-dark:#101828;
+    --text-dark-muted:#5B6577;
+    --display:'Space Grotesk', sans-serif;
+    --body:'Inter', sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:var(--body); background:var(--ink); color:#fff; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px;}
+  .card{background:#121B2E; border:1px solid #22304a; border-radius:18px; padding:44px 36px; max-width:480px; width:100%; text-align:center;}
+  .check{width:56px; height:56px; border-radius:50%; background:rgba(74,222,128,.15); color:var(--accent); display:flex; align-items:center; justify-content:center; margin:0 auto 20px; font-size:28px;}
+  h1{font-family:var(--display); font-size:24px; margin-bottom:10px;}
+  p{color:#94A3B8; font-size:14.5px; line-height:1.6; margin-bottom:26px;}
+  .download-btn{
+    display:inline-flex; align-items:center; gap:8px; padding:14px 28px; border-radius:999px;
+    background:var(--accent); color:#08130c; font-weight:700; font-size:15px; text-decoration:none;
+  }
+  .download-btn:hover{background:#22C55E;}
+  .back-link{display:block; margin-top:22px; color:#94A3B8; font-size:13px; text-decoration:none;}
+  .back-link:hover{color:#fff;}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="check">✓</div>
+    <h1>Thank you for your purchase!</h1>
+    <p>Your payment was successful. Click below to download your copy of <strong>Friends Forest Coloring Book</strong>.</p>
+    <a href="coloring-book-FULL.pdf" download class="download-btn">📥 Download your book (PDF)</a>
+    <a href="books.html" class="back-link">← Back to Book Store</a>
+  </div>
+</body>
+</html>
