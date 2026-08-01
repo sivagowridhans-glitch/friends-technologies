@@ -109,12 +109,16 @@
           <a href="coloring-book-preview.pdf" target="_blank" class="preview-link">Preview (5 pages) →</a>
         </div>
         <!--
-          Replace this placeholder button with your Razorpay Payment Button
-          embed code (Razorpay dashboard → Payment Button → Create).
-          Set the button's "Success redirect URL" to thank-you.html
-          so buyers land on the download page after paying.
+          This uses a direct UPI payment link (no backend, no account approval needed).
+          On mobile, clicking opens GPay/PhonePe/Paytm with ₹149 pre-filled.
+          On desktop, the QR code below can be scanned instead.
         -->
-        <button class="buy-btn">Buy for ₹149</button>
+        <a href="upi://pay?pa=sivagowridhans@okaxis&pn=Friends%20Technologies&am=149&cu=INR&tn=Friends%20Forest%20Coloring%20Book" class="buy-btn" style="display:block;">Pay ₹149 with UPI</a>
+        <div style="display:flex; align-items:center; gap:10px; margin-top:12px;">
+          <img src="upi-qr-code.png" alt="Scan to pay ₹149" style="width:64px; height:64px; border:1px solid #E4E9F2; border-radius:8px;">
+          <span style="font-size:11.5px; color:var(--text-dark-muted); line-height:1.5;">On a computer? Scan this QR with your phone's UPI app to pay.</span>
+        </div>
+        <a href="thank-you.html" style="display:block; text-align:center; font-size:12px; color:var(--text-dark-muted); margin-top:10px; text-decoration:underline;">Already paid? Get your download →</a>
       </div>
     </div>
 
