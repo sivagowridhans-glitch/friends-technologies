@@ -1,0 +1,4 @@
+mcp
+openpyxl
+pillow
+pytesseract
