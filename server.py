@@ -5,8 +5,7 @@ import pytesseract
 import base64
 import io
 import os
-
-mcp = FastMCP("Friends Technologies")
+mcp = FastMCP("Friends Technologies", host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
 
 
 @mcp.tool()
@@ -57,6 +56,6 @@ def image_to_excel(image_base64: str, output_filename: str = "output.xlsx") -> s
     except Exception as e:
         return f"Error processing image: {str(e)}"
 
+
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    mcp.run(transport="streamable-http", host="0.0.0.0", port=port)
+    mcp.run(transport="streamable-http")
