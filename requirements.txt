@@ -1,4 +1,4 @@
-mcp[cli]>=1.2.0
+mcp[cli]==1.9.4
 openpyxl
 pillow
 pytesseract
