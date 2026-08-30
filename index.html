@@ -4,8 +4,52 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Friends Technologies — BPO, Data Processing &amp; Document Solutions</title>
+<meta name="description" content="Friends Technologies offers BPO non-voice services, image-to-Excel data entry, PDF to Word conversion, medical billing, and website/software development in Chennai since 2019. Fast turnaround, accurate delivery.">
+<meta name="keywords" content="BPO non-voice, data entry, image to excel, pdf to word, medical billing, website development Chennai, document conversion">
+<meta name="author" content="Friends Technologies">
+<link rel="canonical" href="https://sivagowridhans-glitch.github.io/friends-technologies/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Friends Technologies — BPO, Data Processing & Document Solutions">
+<meta property="og:description" content="BPO non-voice services, data entry, document conversion, and medical billing for businesses that need it done right, since 2019.">
+<meta property="og:url" content="https://sivagowridhans-glitch.github.io/friends-technologies/">
+<meta property="og:image" content="https://sivagowridhans-glitch.github.io/friends-technologies/coloring-book-cover.jpg">
+<meta property="og:locale" content="en_IN">
+<meta property="og:site_name" content="Friends Technologies">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Friends Technologies — BPO, Data Processing & Document Solutions">
+<meta name="twitter:description" content="BPO non-voice services, data entry, document conversion, and medical billing for businesses that need it done right, since 2019.">
+<meta name="twitter:image" content="https://sivagowridhans-glitch.github.io/friends-technologies/coloring-book-cover.jpg">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234ADE80'/%3E%3Cstop offset='1' stop-color='%23F9A8D4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='48' fill='url(%23g)'/%3E%3Ctext x='50' y='64' font-size='48' font-family='Arial' font-weight='700' fill='%230B1120' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- LocalBusiness structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Friends Technologies",
+  "description": "BPO non-voice services, data entry, document conversion, and medical billing.",
+  "url": "https://sivagowridhans-glitch.github.io/friends-technologies/",
+  "email": "friendstechnologies2019@gmail.com",
+  "telephone": "+917339151909",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chennai",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "foundingDate": "2019",
+  "priceRange": "$$"
+}
+</script>
 <style>
   :root{
     --ink:#0B1120;
@@ -161,6 +205,8 @@
     background:linear-gradient(135deg,#EAF9EF,#E3F7EA); margin-bottom:22px;
   }
   .service-icon svg{width:24px;height:24px;stroke:var(--accent);}
+  .service-group-label{font-family:var(--mono); font-size:12.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--text-dark-muted); margin:0 0 18px; padding-top:8px;}
+  .service-group-label:first-of-type{padding-top:0;}
   .service-card .tag{display:inline-block; font-family:var(--mono); font-size:11px; color:var(--accent); letter-spacing:.06em; text-transform:uppercase; margin-top:14px;}
   .service-card h3{font-size:18px; color:var(--text-dark); margin-bottom:8px;}
   .service-card p{font-size:14.5px; color:var(--text-dark-muted);}
@@ -193,11 +239,6 @@
     background-image:radial-gradient(circle at 1px 1px, rgba(255,255,255,.35) 1px, transparent 0);
     background-size:16px 16px;
   }
-  .folio-thumb .view-overlay{
-    position:absolute; inset:0; background:rgba(8,12,23,.55); display:flex; align-items:center; justify-content:center;
-    opacity:0; transition:.25s ease; font-family:var(--mono); font-size:12.5px; color:#fff; letter-spacing:.05em;
-  }
-  .folio-card:hover .view-overlay{opacity:1;}
   .folio-thumb span{position:relative; font-family:var(--mono); font-size:11.5px; color:rgba(255,255,255,.85); background:rgba(0,0,0,.25); padding:4px 10px; border-radius:999px;}
   .folio-body{padding:18px 20px 22px;}
   .folio-body h3{font-size:16px; color:var(--text-dark); margin-bottom:4px;}
@@ -239,6 +280,15 @@
   }
   .field input:focus, .field textarea:focus{border-color:var(--accent); box-shadow:0 0 0 3px rgba(34,197,94,.18);}
   .field textarea{resize:vertical; min-height:110px;}
+  .field input[type="file"]{
+    padding:10px 15px; cursor:pointer; font-size:13.5px;
+  }
+  .field input[type="file"]::file-selector-button{
+    background:var(--accent); color:#08130c; border:none; border-radius:6px;
+    padding:7px 14px; font-family:var(--body); font-weight:600; font-size:13px;
+    margin-right:12px; cursor:pointer; transition:.2s;
+  }
+  .field input[type="file"]::file-selector-button:hover{background:#22C55E;}
   .map-embed{border-radius:var(--radius); overflow:hidden; border:1px solid var(--line); height:100%; min-height:340px;}
   .map-embed iframe{width:100%; height:100%; min-height:340px; border:0; filter:grayscale(.2) invert(.92) contrast(.9);}
   .form-note{font-size:12.5px; color:var(--text-muted); margin-top:2px;}
@@ -267,7 +317,7 @@
   .footer-bottom{display:flex; justify-content:space-between; align-items:center; padding-top:26px; font-size:13px; flex-wrap:wrap; gap:10px;}
 
   @media (max-width:920px){
-    nav, .nav-actions .btn-ghost{display:none;}
+    nav{display:none;}
     .burger{display:flex;}
     .hero-grid, .contact-grid{grid-template-columns:1fr;}
     .service-grid, .folio-grid{grid-template-columns:repeat(2,1fr);}
@@ -285,6 +335,31 @@
     .marquee-track{animation:none;}
     .cursor{animation:none;}
     html{scroll-behavior:auto;}
+  }
+  .whatsapp-float{
+    position:fixed; bottom:26px; right:26px; z-index:200;
+    width:58px;height:58px;border-radius:50%;
+    background:#25D366; display:flex; align-items:center; justify-content:center;
+    box-shadow:0 10px 24px rgba(0,0,0,.25); transition:.25s ease;
+  }
+  .whatsapp-float:hover{transform:translateY(-3px) scale(1.05); box-shadow:0 14px 30px rgba(0,0,0,.3);}
+  .whatsapp-float svg{width:30px;height:30px;}
+  .process{background:var(--paper); padding:110px 0; border-top:1px solid #E4E9F2;}
+  .process-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:22px; counter-reset:step;}
+  .process-step{position:relative; padding-top:8px;}
+  .process-step::before{
+    counter-increment:step; content:counter(step,decimal-leading-zero);
+    font-family:var(--mono); font-size:13px; color:var(--accent);
+    display:block; margin-bottom:14px;
+  }
+  .process-step h4{font-family:var(--display); font-size:17px; font-weight:600; color:var(--text-dark); margin-bottom:6px;}
+  .process-step p{font-size:14px; color:var(--text-dark-muted);}
+  @media (max-width:920px){
+    .process-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:600px){
+    .process-grid{grid-template-columns:1fr;}
+    .whatsapp-float{width:52px;height:52px;bottom:18px;right:18px;}
   }
 </style>
 </head>
@@ -313,9 +388,9 @@
 <section class="hero" id="home">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <div class="eyebrow">BPO · Non-Voice · Data Processing</div>
-      <h1>Build Modern Websites &amp;<br><span>Software Solutions</span></h1>
-      <p>We handle non-voice BPO work, data entry, document conversion, and billing support for businesses that need it done accurately and on time, every time.</p>
+      <div class="eyebrow">BPO &amp; Data Services · Web &amp; Software Solutions</div>
+      <h1>Reliable Back-Office Work &amp;<br><span>Modern Software, Built Right</span></h1>
+      <p>We handle non-voice BPO, data entry, document conversion, and medical billing with total accuracy — and build websites and software that actually work, since 2019.</p>
       <div class="hero-actions">
         <a href="#contact" class="btn btn-primary">Start Your Project</a>
         <a href="#portfolio" class="btn btn-ghost">View Portfolio</a>
@@ -344,14 +419,36 @@
       <h2>Our Services</h2>
       <p>End-to-end product work, from first sketch to the server that keeps it running.</p>
     </div>
+    <div class="service-group-label">BPO &amp; Data Services</div>
     <div class="service-grid">
       <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 8.5a5 5 0 0 1 9-3M17.5 15.5a5 5 0 0 1-9 3"></path><path d="M4 4v4h4M20 20v-4h-4"></path><circle cx="12" cy="12" r="2.4"></circle></svg></div><h3>BPO Non-Voice Process</h3><p>Back-office support, data processing, and non-voice outsourcing handled accurately and on time.</p></div>
       <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 9h18M8 9v11M13 9v11M18 9v11M3 14h18"></path></svg></div><h3>Image to Excel Data Entry</h3><p>Scanned images and photos converted into clean, organized Excel spreadsheets.</p></div>
       <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M8.5 16h7M8.5 12.5h4"></path></svg></div><h3>PDF to Word Conversion</h3><p>PDF documents converted into fully editable, accurately formatted Word files.</p></div>
-      <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="6" rx="1.5"></rect><rect x="4" y="15" width="16" height="6" rx="1.5"></rect><circle cx="7.5" cy="6" r=".6" fill="currentColor" stroke="none"></circle><circle cx="7.5" cy="18" r=".6" fill="currentColor" stroke="none"></circle></svg></div><h3>Server Projects</h3><p>Server setup, configuration, and maintenance for businesses that need reliable uptime.</p></div>
       <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-9.3-9.1C1.2 8.7 2.9 5 6.4 5c2 0 3.3 1.1 4 2.2C11.1 6.1 12.4 5 14.4 5c3.5 0 5.2 3.7 3.7 6.9C15.8 16.6 12 21 12 21z"></path><path d="M8 12h2l1-2 1.5 4L14 12h2"></path></svg></div><h3>Medical Billing</h3><p>Accurate medical billing and claims support for clinics and healthcare providers.</p></div>
       <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a2 2 0 0 1 2-2h8l6 6v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M14 3v6h6"></path><path d="M8 13h8M8 17h5"></path></svg></div><h3>Data Entry &amp; Document Support</h3><p>General data entry, digitization, and document handling for any volume of work.</p></div>
+    </div>
+
+    <div class="service-group-label">Web &amp; Software Solutions</div>
+    <div class="service-grid">
+      <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"></rect><path d="M3 9h18"></path><circle cx="6.5" cy="6.5" r=".6" fill="currentColor" stroke="none"></circle><circle cx="9" cy="6.5" r=".6" fill="currentColor" stroke="none"></circle></svg></div><h3>Website Design &amp; Development</h3><p>Custom, responsive websites built to convert visitors — not templates.</p></div>
+      <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="6" rx="1.5"></rect><rect x="4" y="15" width="16" height="6" rx="1.5"></rect><circle cx="7.5" cy="6" r=".6" fill="currentColor" stroke="none"></circle><circle cx="7.5" cy="18" r=".6" fill="currentColor" stroke="none"></circle></svg></div><h3>Server Projects</h3><p>Server setup, configuration, and maintenance for businesses that need reliable uptime.</p></div>
       <div class="service-card"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"></path><circle cx="12" cy="12" r="3.5"></circle></svg></div><h3>AI Solutions</h3><p>AI-powered content writing, chatbot setup, and automation to help your business save time and scale faster.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="process">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">How it works</div>
+      <h2>From Files to Finished, in 4 Steps</h2>
+      <p>Whether it's a data batch or a full website build, the process stays this simple.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step"><h4>Share the work</h4><p>Send files, requirements, or a quick call — WhatsApp, email, or the form below.</p></div>
+      <div class="process-step"><h4>Get a clear quote</h4><p>We confirm scope, turnaround, and price upfront — no surprises later.</p></div>
+      <div class="process-step"><h4>We process &amp; build</h4><p>Every file or feature goes through a QA check before it reaches you.</p></div>
+      <div class="process-step"><h4>Delivery &amp; support</h4><p>You get the finished work plus ongoing support if anything needs a fix.</p></div>
     </div>
   </div>
 </section>
@@ -382,12 +479,12 @@
       <p>A few of the products we've shipped for clients across industries.</p>
     </div>
     <div class="folio-grid">
-      <div class="folio-card"><div class="folio-thumb t1"><span>Data Entry</span><div class="view-overlay">View Project →</div></div><div class="folio-body"><h3>Project One</h3><p>Bulk image-to-Excel data entry for a retail client.</p></div></div>
-      <div class="folio-card"><div class="folio-thumb t2"><span>Conversion</span><div class="view-overlay">View Project →</div></div><div class="folio-body"><h3>Project Two</h3><p>PDF to Word conversion for a legal documentation batch.</p></div></div>
-      <div class="folio-card"><div class="folio-thumb t3"><span>Medical Billing</span><div class="view-overlay">View Project →</div></div><div class="folio-body"><h3>Project Three</h3><p>Ongoing medical billing support for a healthcare clinic.</p></div></div>
-      <div class="folio-card"><div class="folio-thumb t4"><span>BPO</span><div class="view-overlay">View Project →</div></div><div class="folio-body"><h3>Project Four</h3><p>Non-voice back-office process for a logistics company.</p></div></div>
-      <div class="folio-card"><div class="folio-thumb t5"><span>Server</span><div class="view-overlay">View Project →</div></div><div class="folio-body"><h3>Project Five</h3><p>Server setup and maintenance for a small business client.</p></div></div>
-      <div class="folio-card"><div class="folio-thumb t6"><span>Documentation</span><div class="view-overlay">View Project →</div></div><div class="folio-body"><h3>Project Six</h3><p>Large-scale document digitization and data cleanup.</p></div></div>
+      <div class="folio-card"><div class="folio-thumb t1" role="img" aria-label="Data entry project thumbnail"><span>Data Entry</span></div><div class="folio-body"><h3>Event Registration Digitization</h3><p>Digitized 100+ scanned visitor registration forms from a national trade exhibition into a clean, structured spreadsheet.</p></div></div>
+      <div class="folio-card"><div class="folio-thumb t2" role="img" aria-label="Document conversion project thumbnail"><span>Conversion</span></div><div class="folio-body"><h3>Project Two</h3><p>PDF to Word conversion for a legal documentation batch.</p></div></div>
+      <div class="folio-card"><div class="folio-thumb t3" role="img" aria-label="Medical billing project thumbnail"><span>Medical Billing</span></div><div class="folio-body"><h3>Project Three</h3><p>Ongoing medical billing support for a healthcare clinic.</p></div></div>
+      <div class="folio-card"><div class="folio-thumb t4" role="img" aria-label="BPO project thumbnail"><span>BPO</span></div><div class="folio-body"><h3>Project Four</h3><p>Non-voice back-office process for a logistics company.</p></div></div>
+      <div class="folio-card"><div class="folio-thumb t5" role="img" aria-label="Server project thumbnail"><span>Server</span></div><div class="folio-body"><h3>Project Five</h3><p>Server setup and maintenance for a small business client.</p></div></div>
+      <div class="folio-card"><div class="folio-thumb t6" role="img" aria-label="Documentation project thumbnail"><span>Documentation</span></div><div class="folio-body"><h3>Project Six</h3><p>Large-scale document digitization and data cleanup.</p></div></div>
     </div>
   </div>
 </section>
@@ -436,11 +533,12 @@
       </div>
     </div>
     <div class="contact-grid">
-      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xykrljqw" method="POST">
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xykrljqw" method="POST" enctype="multipart/form-data">
         <div class="field"><label>Name</label><input type="text" name="name" placeholder="Your name" required></div>
         <div class="field"><label>Email</label><input type="email" name="email" placeholder="you@company.com" required></div>
         <div class="field"><label>Phone</label><input type="tel" name="phone" placeholder="+91 00000 00000"></div>
         <div class="field"><label>Message</label><textarea name="message" placeholder="Tell us about your project..." required></textarea></div>
+        <div class="field"><label>Attach a file (optional)</label><input type="file" name="attachment" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.xlsx,.xls"></div>
         <input type="text" name="_gotcha" style="display:none">
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
         <p class="form-note" id="formStatus"></p>
@@ -465,6 +563,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="books.html">Books</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -571,5 +670,8 @@
   });
 </script>
 
+<a href="https://wa.me/917339151909?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.83 14.17c-.25.7-1.24 1.28-1.98 1.44-.53.11-1.22.2-3.54-.76-2.97-1.23-4.88-4.24-5.03-4.44-.15-.2-1.2-1.6-1.2-3.04 0-1.45.76-2.16 1.03-2.45.27-.29.6-.36.8-.36.2 0 .4 0 .57.01.18.01.43-.07.67.51.25.6.85 2.08.92 2.23.07.15.12.33.02.53-.1.2-.15.32-.3.5-.15.18-.31.4-.44.53-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.13.64-.08.17-.2.73-.85.93-1.14.2-.29.4-.24.66-.14.27.1 1.71.81 2 .96.29.15.48.22.55.34.07.13.07.72-.18 1.42z"></path></svg>
+</a>
 </body>
 </html>
